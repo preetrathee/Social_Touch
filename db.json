@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jane Doe",
+      "email": "jane.doe@email.com",
+      "photo": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "email": "john.smith@email.com",
+      "photo": "https://randomuser.me/api/portraits/men/45.jpg"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "title": "Romantic Movie Night",
+      "description": "A heartwarming romantic movie.",
+      "category": "Movies",
+      "thumbnail": "https://placehold.co/400x200?text=Movie+1",
+      "isFree": true
+    },
+    {
+      "id": 2,
+      "title": "Web Series Adventure",
+      "description": "Exciting web series to binge.",
+      "category": "Web Series",
+      "thumbnail": "https://placehold.co/400x200?text=Web+Series+1",
+      "isFree": false
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Dating Tips",
+      "description": "Top tips for online dating.",
+      "category": "Blog",
+      "thumbnail": "https://placehold.co/400x200?text=Blog+1"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "userId": 1,
+      "messages": [
+        { "from": "Jane Doe", "text": "Hi!" },
+        { "from": "John Smith", "text": "Hello!" }
+      ]
+    }
+  ]
+} 
